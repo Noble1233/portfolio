@@ -1,0 +1,147 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Frontend Developer — Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="brand">
+        <div class="logo" aria-hidden="true">
+          <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect x="6" y="6" width="88" height="88" rx="18" fill="white" fill-opacity="0.06"/>
+            <path d="M30 70V30L70 70H50" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </div>
+        <div class="title">
+          <h1>Chidera Victory Mbanta</h1>
+          <p>Frontend Developer — HTML • CSS • JavaScript</p>
+        </div>
+      </div>
+      <nav>
+        <div class="nav-links" id="navLinks">
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#cv">CV</a>
+          <a href="#contact" class="btn-primary">Contact</a>
+        </div>
+        <button class="hamburger" id="hamburger" aria-expanded="false" aria-label="Open menu">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="card intro fade-up">
+          <h2 id="about">Hello — I build clean, fast and accessible web frontends</h2>
+          <p>I’m a frontend developer focusing on performant, responsive interfaces. I craft pixel-perfect UI using semantic HTML, modern CSS and vanilla JavaScript.</p>
+          <div class="hero-image">
+          <img src="profile.jpg" alt="profile photo of Mbanta Chidera Victory">
+          </div>
+          <div class="cta-row">
+            <a href="Mbanta_Chidera_Victory_Frontend_Developer_CV.pdf" download class="btn-primary"></a>
+            <a class="btn-primary" href="#projects">View Projects</a>
+            <a href="#cv" class="link">Download CV</a>
+          </div>
+          <div class="stats">
+            <div class="stat"><strong>5+</strong><span>Projects</span></div>
+            <div class="stat"><strong>1</strong><span>Years exp</span></div>
+            <div class="stat"><strong>Frontend</strong><span>Specialist</span></div>
+          </div>
+            <a href="https://noble1233.github.io" class="btn">View on GitHub</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Coffee Website</h3>
+                <p>Modern coffee shop website with interactive menu and animations.</p>
+                <a href="https://noble1233.github.io/coffee/" class="btn">View on GitHub</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Salon Website</h3>
+                <p>Elegant salon website showcasing services and customer reviews.</p>
+                <a href="https://noble1233.github.io/salon/" class="btn">View on GitHub</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Photo Gallery</h3>
+                <p>Interactive photo gallery with grid layout and smooth transitions.</p>
+                <a href="https://noble1233.github.io/photo/" class="btn">View on GitHub</a>
+            </div>
+
+            <div class="project-card">
+                <h3>To-Do List App</h3>
+                <p>A simple and effective to-do list built using JavaScript.</p>
+                <a href="https://noble1233.github.io/To-do-list/" class="btn">View on GitHub</a>
+            </div>
+
+            <div class="project-card">
+                <h3>Engineering Website</h3>
+                <p>Responsive engineering website with clean layout and sections.</p>
+                <a href="https://noble1233.github.io/lawson/" class="btn">View on GitHub</a>
+            </div>
+
+        </div>
+    </section>
+
+
+        </div>
+
+        <aside class="cv card fade-up" id="cv">
+          <h3>CV — Chidera VictoryMbanta</h3>
+          <p>Frontend developer — Open to remote & hybrid roles</p>
+          <p>Email: <a href="mailto:you@example.com">mbantachidera35@gmail.com</a></p>
+          <p>Location: Nigeria</p>
+          <div class="skills">
+            <div class="skill"><small>HTML</small><div class="bar"><i style="width:95%"></i></div></div>
+            <div class="skill"><small>CSS / Responsive</small><div class="bar"><i style="width:92%"></i></div></div>
+            <div class="skill"><small>JavaScript</small><div class="bar"><i style="width:86%"></i></div></div>
+          </div>
+              <section id="cv" class="cv">
+        <h2>Download My CV</h2>
+        <p>Click below to download my professional CV.</p>
+        <a href="Mbanta_Chidera_Victory_Frontend_Developer_CV.pdf" download class="btn">Download CV</a>
+    </section>
+          <button id="downloadCv" class="btn-primary">Download CV</button>
+        </aside>
+        
+      </section>
+
+      <footer id="contact">
+        <p>© <span id="year"></span> Chidera Victory Mbanta — Frontend Developer</p>
+        <div class="socials">
+          <a href="#">GitHub</a>
+          <a href="#">LinkedIn</a>
+          <a href="#">Twitter</a>
+        </div>
+      </footer>
+      <footer>
+  
+</footer>
+    </main>
+
+    <div class="mobile-drawer" id="drawer" aria-hidden="true">
+      <div class="backdrop" id="backdrop"></div>
+      <nav class="sheet">
+        <button id="closeDrawer">Close ✕</button>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#cv">CV</a>
+        <a href="#contact" class="btn-primary">Contact</a>
+      </nav>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
